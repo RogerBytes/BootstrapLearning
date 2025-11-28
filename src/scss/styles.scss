@@ -1,0 +1,18 @@
+// $body-bg: #181818;
+// $primary: red;
+// $h1-font-size: 5rem;
+// $body-color: white;
+
+// Import all of Bootstrap’s CSS
+@import "bootstrap/scss/bootstrap";
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img-top {
+  width: 80%;
+  height: auto;
+}
